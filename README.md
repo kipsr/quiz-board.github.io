@@ -18,6 +18,9 @@ If you'd like to request a new function, feel free to do so by contacting us. Pl
 | behavior that we'll need to write code to handle | inputs                                                    | outputs                                                                                             |
 |--------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | The student should choose the correct answer     | By ticking any of the answers provided in the input forms | the students is awarded 20 points in case of a correct answer and o pints in case of a wrong answer |
+
+
+
 Technologies Used
 HTML,CSS,Javacript Bootsrap and Jquery
 
