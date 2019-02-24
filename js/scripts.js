@@ -5,6 +5,7 @@ $("document").ready(function(){
 
 
 function Quiz(){
+    var correct=20;
     var correct=0;
     for(var i = 1; i<=5;i++){
       var radios= document.getElementsByName('name');
