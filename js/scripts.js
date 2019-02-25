@@ -1,7 +1,7 @@
-$("document").ready(function(){
-  $("h1").css("color", "red");
+// $("document").ready(function(){
+//   $("h1").css("color", "red");
   
-});
+// });
 
 $(document).ready(function() {
   $("#test").submit(function(event){
@@ -13,8 +13,8 @@ $(document).ready(function() {
     var question5= parseInt($("[name=Q5]:checked").val());
     
  
-    var score = (question1+question2+question3+question4+question5);
-    alert (score);
+    var score = parseInt(question1+question2+question3+question4+question5);
+    
     if (score>25) {
       $("#input").text("Your Result is: " + score + " Superb");
     } else {

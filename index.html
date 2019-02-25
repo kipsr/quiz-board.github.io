@@ -1,86 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <title>Page Title</title>
-</head>
-<body>
-  <form>
-    <div class="container">           
+  </head>
+  <body>
+    
+      <div class="container">           
         <h1>Quiz-Board</h1>
         <p>Provide your personal details below.</p>
-      
-      <div class="form-group">
-        <label for="studentName">Your Name</label>
-        <input type="text" id="studentName" class="form-control">
-      </div>
-      <div class="form-group">
-        <label for="registration">Registration Number</label>
-        <input type="text" id="registration" class="form-control">
-      </div>
-      <h2><em>Instructions</em></h2>
-      <p>The instructions on how to answer the question have been provide below</p>
-      <ol>
-        <li>You are required to answer each question.</li>
-        <li>Answer all the questionsby ticking on the right answer</li>
-        <li>The question below are ten, and should be answered accordingly</li>
         
-      </ol>
-      <div id="test">
-        <form id="Quiz" action="index.html" method="POST" name="Quiz">
-        <p>1.What does HTML denote in full?</p><br>
-        <div>
-          <label>        
-            <input type="radio" id="1a"  name="Q1" value="0">High Tech Machine Language<br>
-            <input type="radio" id="1b" name="Q1" value="5">Hypertext Markup Language<br>
-            <input type="radio" id="1c" name="Q1" value="0">None of the above<br>
-          </label>
+        <div class="form-group">
+          <label for="studentName">Your Name</label>
+          <input type="text" id="studentName" class="form-control">
         </div>
-        <p>2.How is JavaScript abreviated</p>
-        <div>
-          <label>
-            <input type="radio" id="2a" name="Q2" value="5">JS<br>
-            <input type="radio" id="2b" name="Q2" value="0">Cannot be abreviated<br>
-          </label>
+        <div class="form-group">
+          <label for="registration">Registration Number</label>
+          <input type="text" id="registration" class="form-control">
         </div>
-        <p>3.What does DOM stand for</p>
-        <div>
-          <label>
-            <input type="radio" id="3a" name="Q3" value="0">Data Object Model<br>
-            <input type="radio" id="3b" name="Q3" value="5">Document Object Model<br>
-            <input type="radio" id="3c" name="Q3" value="0">None of the above<br>
-          </label>
-        </div>
-        <p>4.Is C++ a low level Language?</p>
-        <div>
-          <label>
-            <input type="radio" id="4a" name="Q4" value="0">YES<br>
-            <input type="radio" id="4b" name="Q4" value="5">NO<br>        
-         </label>
-        </div>
-        <p>5.What does DRY donote</p>
-        <div>
-          <label>
-            <input type="radio" id="5a" name="Q5" value="5">Don't Repeat Yourself<br>
-            <input type="radio" id="5b" name="Q5" value="0">Don,t Run Yourself<br>
-            <input type="radio" id="5c" name="Q5" value="0">None of the above<br>
-          </label>
-        </div>
-
-
-        <button type="submit" class="btn btn-success" id="green">SUBMIT RESULTS</button><br>
-        
-      </div>
-
-    <div id="input">
-        <p id="scoreline">Your Results</p>
-    </div>      
-        
-  </form>      
-</body>
+        <h2><em>Instructions</em></h2>
+        <p>The instructions on how to answer the question have been provide below</p>
+        <ol>
+          <li>You are required to answer each question.</li>
+          <li>Answer all the questionsby ticking on the right answer</li>
+          <li>The question below are ten, and should be answered accordingly</li>
+          
+        </ol>
+        <form id="test">
+          
+            <p>1.What does HTML denote in full?</p><br>
+            <div>
+              <label>        
+                <input type="radio" id="1a"  name="Q1" value="0"/>High Tech Machine Language<br>
+                <input type="radio" id="1b" name="Q1" value="5"/>Hypertext Markup Language<br>
+                <input type="radio" id="1c" name="Q1" value="0"/>None of the above<br>
+              </label>
+            </div>
+            <p>2.How is JavaScript abreviated</p>
+            <div>
+              <label>
+                <input type="radio" id="2a" name="Q2" value="5"/>JS<br>
+                <input type="radio" id="2b" name="Q2" value="0"/>Cannot be abreviated<br>
+              </label>
+            </div>
+            <p>3.What does DOM stand for</p>
+            <div>
+              <label>
+                <input type="radio" id="3a" name="Q3" value="0"/>Data Object Model<br>
+                <input type="radio" id="3b" name="Q3" value="5"/>Document Object Model<br>
+                <input type="radio" id="3c" name="Q3" value="0"/>None of the above<br>
+              </label>
+            </div>
+            <p>4.Is C++ a low level Language?</p>
+            <div>
+              <label>
+                <input type="radio" id="4a" name="Q4" value="0"/>YES<br>
+                <input type="radio" id="4b" name="Q4" value="5"/>NO<br>        
+              </label>
+            </div>
+            <p>5.What does DRY donote</p>
+            <div>
+              <label>
+                <input type="radio" id="5a" name="Q5" value="5"/>Don't Repeat Yourself<br>
+                <input type="radio" id="5b" name="Q5" value="0"/>Don,t Run Yourself<br>
+                <input type="radio" id="5c" name="Q5" value="0"/>None of the above<br>
+              </label>
+            </div>
+            
+            
+            <button type="submit" class="btn btn-success" id="green">SUBMIT RESULTS</button><br>
+            
+        </form>   
+          
+          <div id="input">           
+          </div>  
+             
+          
+            
+  </body>
 </html>
