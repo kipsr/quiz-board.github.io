@@ -5,11 +5,11 @@ $("document").ready(function(){
 
 
 function Quiz(){
-    var correct=20;
-    var correct=0;
+    var answercorrect=0;
+    
     for(var i = 1; i<=5;i++){
       var radios= document.getElementsByName('name');
-      for (var z=00; z<radios.length; z++){
+      for (var z=0; z<radios.length; z++){
         var radio =radios[z];
         if(radio.value=== "correct" && radio.checked){
   
