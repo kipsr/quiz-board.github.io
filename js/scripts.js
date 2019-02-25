@@ -13,12 +13,13 @@ $(document).ready(function() {
     var question5= parseInt($("[name=Q5]:checked").val());
     
  
-    var score = parseInt(Q1+Q2+Q3+Q4+Q5);
-    if (score>25) {
-      $("#input").text("Your Result is: " + score + " Superb");
-    } else {
-      $("#input").text("Your score is: " + score + " pull up your socks!");
-    }
+    var score = (question1+question2+question3+question4+question5);
+    alert (score);
+    // if (score>25) {
+    //   $("#input").text("Your Result is: " + score + " Superb");
+    // } else {
+    //   $("#input").text("Your score is: " + score + " pull up your socks!");
+    // }
   });
  });
 
