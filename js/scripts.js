@@ -15,7 +15,7 @@ $(document).ready(function() {
  
     var score = parseInt(question1+question2+question3+question4+question5);
     
-    if (score>25) {
+    if (score<=25) {
       $("#input").text("Your Result is: " + score + " Superb");
     } else {
       $("#input").text("Your score is: " + score + " pull up your socks!");
